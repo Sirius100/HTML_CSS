@@ -7,7 +7,7 @@
  * Kroc Camen, and the H5BP dev community and team.
  */
 
- 
+
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
@@ -95,7 +95,23 @@ textarea {
     padding: 0.2em 0;
 }
 
+.treug{
+  left: -100vw;
+  height: 45px;
+  background: #555555;
+  border-left: 100vw green solid;
+  border-top: 0px  solid transparent;
+  border-bottom: 150px solid transparent;
+  background: linear-gradient(to right, #be6767 0%, #be6767 25%, #38c695 25%, #38c695 50%, #b27cf5 50%, #b27cf5 75%, #feb960 75%, #feb960 100%) 1 1;
+}
 
+.trap{
+  height: 300px;
+  background: #555555;
+  border-right: 100vw red solid;
+  border-bottom: 300px  solid transparent;
+  border-top: 150px  solid transparent ;
+}
 
 
  /* ==========================================================================
@@ -197,7 +213,7 @@ textarea {
   clear: both;
 }
 
- 
+
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
@@ -215,7 +231,7 @@ textarea {
     /* Style adjustments for high resolution devices */
 }
 
- 
+
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
