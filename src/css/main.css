@@ -109,26 +109,42 @@ textarea {
   border-bottom: 150px solid transparent;
 }
 
+.wrapper{
+  display: grid;
+  grid-template-rows: 1fr;
+}
 .trap{
   display: grid;
-  grid-template-columns: repeat(5, auto);
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 15px;
-  height: 300px;
-  background: #555555;
+  height: 320px;
+  /*background: #555555;*/
+  background-image: url("../img/neonlenta.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   border-right: 100vw red solid;
   border-bottom: 300px  solid transparent;
   border-top: 150px  solid transparent ;
 }
 
 .cell{
-  border: 3px solid #cccccc;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  border: 5px solid #cccccc;
 }
 .box{
+  box-sizing: border-box;
   background: #555555;
-  width: 10vw;
+  width: 320px;
+  height: 310px;
 }
 
-
+.conteiner{
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
 
 
 
